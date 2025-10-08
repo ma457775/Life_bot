@@ -1,0 +1,2 @@
+0 Basura Bien
+1 Basura Mal

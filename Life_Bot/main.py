@@ -4,7 +4,6 @@ from discord.ext import commands
 import os
 import requests
 import pyttsx3
-from model import get_class
 print(os.listdir("Memes"))  
 print(os.listdir("Memes-en"))
 
@@ -165,11 +164,12 @@ async def facts(ctx):
 
 @bot.command()
 async def github(ctx):
-    await ctx.send(f"")
+    await ctx.send(f"https://github.com/ma457775/Life_bot.git")
 
 @bot.command()
 async def version(ctx):
     await ctx.send(f"1.1")
 
 
-bot.run("")
+bot.run("INGRESA TU CODIGO")
+
